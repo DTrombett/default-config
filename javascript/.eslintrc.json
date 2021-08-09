@@ -22,7 +22,10 @@
             "warn",
             "property"
         ],
-        "eqeqeq": "warn",
+        "eqeqeq": [
+            "warn",
+            "smart"
+        ],
         "no-else-return": [
             "warn",
             {
