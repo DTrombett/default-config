@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "description": "None",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "DTrombett",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.3.0"
+  },
+  "dependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "tslib": "^2.3.0"
+  }
+}

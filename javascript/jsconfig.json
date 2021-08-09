@@ -1,0 +1,35 @@
+{
+    "exclude": [
+        "node_modules/**/*"
+    ],
+    "compilerOptions": {
+        "lib": [
+            "es2020"
+        ],
+        "module": "commonJS",
+        "moduleResolution": "node",
+        "checkJs": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es2020",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowUnreachableCode": false,
+        "alwaysStrict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "resolveJsonModule": true,
+        "declaration": true,
+        "declarationDir": "./types",
+        "declarationMap": true,
+        "importsNotUsedAsValues": "preserve",
+        "noEmitHelpers": true,
+        "sourceMap": true
+    }
+}

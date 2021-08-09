@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "description": "None",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node .",
+    "compile": "tsc",
+    "boot": "npm run compile && npm start",
+    "lint": "eslint src --fix"
+  },
+  "author": "DTrombett",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.6"
+  }
+}
