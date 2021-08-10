@@ -1,7 +1,5 @@
 {
-    "include": [
-        "src/**/*"
-    ],
+    "extends": "https://github.com/tsconfig/bases/blob/main/bases/node16.json",
     "compilerOptions": {
         "allowJs": true,
         "allowUnreachableCode": false,
@@ -22,17 +20,6 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "resolveJsonModule": true,
-        "sourceMap": true,
-        "lib": [
-            "es2020"
-        ],
-        "module": "commonjs",
-        "target": "es2020",
-        "strict": true,
-        "esModuleInterop": true,
-        "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true
-        // "declarationDir": "types",
-        // "outDir": "dist",
+        "sourceMap": true
     }
 }
