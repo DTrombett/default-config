@@ -23,3 +23,15 @@
         "sourceMap": true
     }
 }
+/**
+{
+    "include": [
+        "src/**\/*"
+    ],
+    "extends": "https://raw.githubusercontent.com/DTrombett/default-config/master/typescript/tsconfig.json",
+    "compilerOptions": {
+        "declarationDir": "types",
+        "outDir": "dist",
+    }
+}
+**/
