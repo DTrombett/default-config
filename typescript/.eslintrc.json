@@ -182,7 +182,7 @@
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
         "plugin:prettier/recommended",
-        "../default-config/typescript/.eslintrc.json"
+        "https://raw.githubusercontent.com/DTrombett/default-config/master/typescript/.eslintrc.json"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
