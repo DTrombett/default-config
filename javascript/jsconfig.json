@@ -1,4 +1,7 @@
 {
+    "exclude": [
+        "node_modules/**/*"
+    ],
     "compilerOptions": {
         "lib": [
             "es2020"
@@ -23,12 +26,3 @@
         "resolveJsonModule": true
     }
 }
-/**
-{
-    "exclude": [
-        "node_modules/**\/*"
-    ],
-    "extends": "https://raw.githubusercontent.com/DTrombett/default-config/master/javascript/jsconfig.json",
-    "compilerOptions": {}
-}
-**/
