@@ -144,23 +144,3 @@
         "no-return-await": "warn"
     }
 }
-/**
-{
-    "ignorePatterns": [
-        "node_modules/"
-    ],
-    "env": {
-        "es2021": true,
-        "node": true
-    },
-    "extends": [
-        "eslint:recommended",
-        "plugin:prettier/recommended",
-        "../default-config/javascript/.eslintrc.json"
-    ],
-    "plugins": [
-        "prettier"
-    ],
-    "rules": {}
-}
-**/
