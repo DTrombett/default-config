@@ -1,5 +1,7 @@
 {
-    "extends": "https://github.com/tsconfig/bases/blob/main/bases/node16.json",
+    "include": [
+        "src/**/*"
+    ],
     "compilerOptions": {
         "allowJs": true,
         "allowUnreachableCode": false,
@@ -20,18 +22,8 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "resolveJsonModule": true,
-        "sourceMap": true
-    }
-}
-/**
-{
-    "include": [
-        "src/**\/*"
-    ],
-    "extends": "https://raw.githubusercontent.com/DTrombett/default-config/master/typescript/tsconfig.json",
-    "compilerOptions": {
+        "sourceMap": true,
         "declarationDir": "types",
-        "outDir": "dist",
+        "outDir": "dist"
     }
 }
-**/
