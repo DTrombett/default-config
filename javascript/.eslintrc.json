@@ -68,7 +68,6 @@
         "comma-style": "warn",
         "computed-property-spacing": "warn",
         "key-spacing": "warn",
-        "lines-around-comment": "warn",
         "multiline-comment-style": "warn",
         "new-parens": "warn",
         "no-async-promise-executor": "off",
