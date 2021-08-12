@@ -78,6 +78,7 @@
         "comma-style": "warn",
         "computed-property-spacing": "warn",
         "key-spacing": "warn",
+        "lines-around-comment": "warn",
         "multiline-comment-style": "warn",
         "new-parens": "warn",
         "no-async-promise-executor": "off",
@@ -92,10 +93,6 @@
         "no-whitespace-before-property": "warn",
         "one-var-declaration-per-line": "warn",
         "operator-assignment": "warn",
-        "padded-blocks": [
-            "warn",
-            "never"
-        ],
         "prettier/prettier": [
             "warn",
             {
