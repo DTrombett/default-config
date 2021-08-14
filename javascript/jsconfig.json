@@ -1,6 +1,7 @@
 {
     "exclude": [
-        "node_modules/**/*"
+        "coverage/",
+        "node_modules/"
     ],
     "compilerOptions": {
         "lib": [
@@ -23,6 +24,8 @@
         "noUncheckedIndexedAccess": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "checkJs": true
     }
 }
