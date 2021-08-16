@@ -2,19 +2,22 @@
     "include": [
         "src/**/*"
     ],
+    "buildOptions": {
+        "assumeChangesOnlyAffectDirectDependencies": true,
+        "verbose": true
+    },
+    "compileOnSave": true,
+    "extends": "@tsconfig/node16/tsconfig.json",
     "compilerOptions": {
-        "allowJs": true,
         "allowUnreachableCode": false,
         "alwaysStrict": true,
         "assumeChangesOnlyAffectDirectDependencies": true,
-        "checkJs": true,
         "declaration": true,
         "declarationMap": true,
         "extendedDiagnostics": true,
         "importHelpers": true,
         "moduleResolution": "node",
         "noEmitHelpers": true,
-        "noErrorTruncation": true,
         "noFallthroughCasesInSwitch": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
@@ -24,6 +27,24 @@
         "resolveJsonModule": true,
         "sourceMap": true,
         "declarationDir": "types",
-        "outDir": "dist"
+        "outDir": "dist",
+        "allowJs": true,
+        "checkJs": true,
+        "diagnostics": true,
+        "disableSizeLimit": true,
+        "listEmittedFiles": true,
+        "listFiles": true,
+        "newLine": "crlf",
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "preserveConstEnums": true,
+        "pretty": true,
+        "plugins": [
+            {
+                "name": "typescript-eslint-language-service"
+            }
+        ],
+        "traceResolution": true
     }
 }
