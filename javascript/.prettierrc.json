@@ -4,7 +4,6 @@
     "arrowParens": "always",
     "bracketSpacing": true,
     "embeddedLanguageFormatting": "auto",
-    "filepath": "src/",
     "endOfLine": "crlf",
     "semi": true,
     "singleQuote": false,
